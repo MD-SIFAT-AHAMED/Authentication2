@@ -1,0 +1,21 @@
+nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 60px;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+a:hover{
+    color: white;
+    background: #000;
+    transition: background 0.3s ease; 
+    border-radius: 5px;
+    
+}
